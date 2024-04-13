@@ -1,0 +1,16 @@
+{
+    "name": "𝖎𝖋𝖎",
+    "description": "اهلا بكم في تنصيب النشر التلقائي الخاص ",
+    "logo": "https://telegra.ph/file/9c9d5d49b28c28fd25f1b.jpg",
+    "stack": "container",
+    "repository": "https://t.me/lxxzxI",
+    "keywords": ["python", "chatbot", "telegrambot"],
+    "website": "https://t.me/lxxzxI",
+    "env": {
+        "SESSION": {
+            "description": "ضع كود التيرمكس الذي استخرجته من بوت https://t.me/termix_code_bot",
+            "value": "",
+            "required": true
+        }
+    }
+}
