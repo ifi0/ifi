@@ -6,23 +6,11 @@
     "repository": "https://t.me/lxxzxI",
     "keywords": ["python", "chatbot", "telegrambot"],
     "website": "https://t.me/lxxzxI",
-    "env": [
+      "env": {
         "SESSION": {
             "description": "ضع كود التيرمكس الذي استخرجته من بوت https://t.me/termix_code_bot",
             "value": "",
             "required": true
         }
-       "API_HASH": {
-            "description": "Your API Hash from my.telegram.org",
-            "value": ""
-        },
-        "APP_ID": {
-            "description": "Your APP ID from my.telegram.org",
-            "value": ""
-	   }
-	},
-	"buildpacks": [
-		{
-			"url": "heroku/python"
-		}
-	]
+    }
+}
